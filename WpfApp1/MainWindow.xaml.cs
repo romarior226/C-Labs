@@ -9,7 +9,7 @@ namespace WpfApp1;
 public partial class MainWindow
 {
     private List<double> _mylist = new List<double>();
-
+  
     public MainWindow()
     {
         InitializeComponent();
@@ -39,10 +39,10 @@ public partial class MainWindow
                 MessageBox.Show("Please enter a number");
                 return;
             }
-       
             _mylist.Add(number);
             Result.Items.Add("[ " + number + " ]");
         }
+        TextBoxForNumbers.Clear();
     }
     /// <summary>
     /// фукнція яка перезаписує текстове поле щоб поміняти місцями 2 елемента
@@ -103,7 +103,6 @@ public partial class MainWindow
     /// <summary>
     /// фукнція викликається при натискані на кнопку Clear і очищає всі поля 
     /// </summary>
-
     private void Clear(object sender, RoutedEventArgs e)
     {
         _mylist.Clear();

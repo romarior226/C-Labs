@@ -9,17 +9,15 @@
     <Grid>
         <Button
                 Content=" Add numbers "
-                Width=" 100"
                 Height=" 50"
                 VerticalAlignment="Top"
-                Margin="0 , 75 , 500 , 0 "
+                Margin="100,75,610,0"
                 Click="AddNumbers" />
         <Button
             Content=" Clear "
-            Width=" 100"
             Height=" 50"
             VerticalAlignment="Top"
-            Margin="0 , 75 , 100 , 0 "
+            Margin="335,75,374,0"
             Click="Clear"
             />
         <TextBox
@@ -27,14 +25,14 @@
             TextWrapping="Wrap"
             Height="100"
             HorizontalAlignment="Left"
-            Width="300"
-            Margin="100 , 50 , 0, 0" />
+            Width="326"
+            Margin="100,192,0,142" />
         <TextBox
             x:Name="TextBoxForCount"
             Height="20"
             HorizontalAlignment="Left"
-            Width="300"
-            Margin="100 , 0 , 0, 100" />
+            Width="326"
+            Margin="100,157,0,257" />
         <ListBox
             x:Name="Result"
             Height="200"
@@ -48,6 +46,13 @@
             VerticalAlignment="Top"
             HorizontalAlignment="Center"
             Margin="0 , 125 , 300 , 0" />
+        <Label
+            x:Name="Label_Copy"
+            Content="List"
+            Height="30"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="470,82,0,0" RenderTransformOrigin="0.916,0.62" />
 
 
     </Grid>
