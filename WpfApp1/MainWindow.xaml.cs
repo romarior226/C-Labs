@@ -42,6 +42,7 @@ public partial class MainWindow
             _mylist.Add(number);
             Result.Items.Add("[ " + number + " ]");
         }
+        
         TextBoxForNumbers.Clear();
     }
     /// <summary>
